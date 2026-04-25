@@ -3,12 +3,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace HeroEngine.Web.Pages
 {
-    public class IndexModel : PageModel
+    public class CombatModel : PageModel
     {
-        public int RegisteredHeroesCount { get; set; }
         public void OnGet()
         {
-            RegisteredHeroesCount = 3;
         }
     }
 }

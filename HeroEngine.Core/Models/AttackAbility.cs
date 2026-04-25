@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using static System.Net.Mime.MediaTypeNames;
 using HeroEngine.Core.Enums;
+using HeroEngine.Core.Combat;
 
 namespace HeroEngine.Core.Models
 {

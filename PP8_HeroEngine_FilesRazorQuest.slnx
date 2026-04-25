@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="../../../../../../Desktop/CodiCsharp/BLOC4/PP8_HeroEngine_FilesRazorQuest/HeroEngine.Core/HeroEngine.Core.csproj" />
-  <Project Path="../../../../../../Desktop/CodiCsharp/BLOC4/PP8_HeroEngine_FilesRazorQuest/HeroEngine.Web/HeroEngine.Web.csproj" Id="e8417318-6b24-43a2-b48f-4eab3505761a" />
+  <Project Path="HeroEngine.Core/HeroEngine.Core.csproj" />
+  <Project Path="HeroEngine.Web/HeroEngine.Web.csproj" />
 </Solution>
