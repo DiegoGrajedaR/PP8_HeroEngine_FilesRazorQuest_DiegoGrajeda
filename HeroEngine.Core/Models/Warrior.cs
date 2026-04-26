@@ -28,7 +28,7 @@ namespace HeroEngine.Core.Models
             return damage;
         }
 
-        public override void TakeDamage(int damage)
+        public override string TakeDamage(int damage)
         {
             int realDamage = damage - Armor;
 
@@ -38,9 +38,10 @@ namespace HeroEngine.Core.Models
             }
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"[HERO/Warrior] {Name} receives {damage} damage -> absorbed {Math.Min(damage, Armor)} by armor -> real damage: {realDamage}");
+            string resultText = (realDamage <= 0) ? $"[HERO/Warrior] {Name} receives {damage} damage -> absorbed {Math.Min(damage, Armor)} by armor -> real damage: {realDamage}" : base.TakeDamage(realDamage);
+            Armor -= 10;
             Console.ResetColor();
-            base.TakeDamage(realDamage);
+            return resultText;
         }
 
         public override string ToString() => $"\n[HERO/Warrior] {base.ToString()} | Armor: {Armor} | Battle Cry: {BattleCry}";

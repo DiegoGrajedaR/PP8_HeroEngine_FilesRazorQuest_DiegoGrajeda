@@ -1,0 +1,50 @@
+﻿.heroes {
+    margin: 2rem;
+}
+
+/* HEADER */
+.heroes .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.heroes .header a {
+        background: green;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+}
+
+/* TABLE */
+.heroes table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e1e1e;
+    color: white;
+}
+
+.heroes th, .heroes td {
+    padding: 10px;
+}
+
+.heroes tr:nth-child(even) {
+    background: #2a2a2a;
+}
+
+/* HP BAR */
+.heroes .hp {
+    background: #444;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.heroes .bar {
+    background: red;
+    height: 100%;
+    text-align: center;
+    font-size: 12px;
+}

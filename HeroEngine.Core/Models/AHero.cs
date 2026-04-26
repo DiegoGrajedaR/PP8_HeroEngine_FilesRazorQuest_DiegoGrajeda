@@ -7,9 +7,9 @@ namespace HeroEngine.Core.Models
     public abstract class AHero
     {
         public string Name { get; set; }
-        protected int Level { get; set; }
-        protected int MaxHP { get; set; }
-        protected int CurrentHP { get; set; }
+        public int Level { get; set; }
+        public int MaxHP { get; set; }
+        public int CurrentHP { get; set; }
         public bool IsDefeated => CurrentHP <= 0;
 
         public AHero(string name, int level)
@@ -23,7 +23,7 @@ namespace HeroEngine.Core.Models
 
         public abstract int Attack();
 
-        public virtual void TakeDamage(int damage)
+        public virtual string TakeDamage(int damage)
         {
             CurrentHP -= damage;
 
@@ -33,9 +33,9 @@ namespace HeroEngine.Core.Models
             }
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"{Name} receives {damage} damage. " + ToString());
-            if (IsDefeated) Console.WriteLine("DEFETED HERO!!!");
+            string resultText = (CurrentHP == 0) ? "DEFETED HERO!!!" : $"{Name} receives {damage} damage. " + ToString();
             Console.ResetColor();
+            return resultText;
         }
 
         public override string ToString() => $"{Name} | Level: {Level} | HP: {CurrentHP}/{MaxHP}";

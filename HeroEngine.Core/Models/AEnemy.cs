@@ -20,7 +20,7 @@ namespace HeroEngine.Core.Models
 
         public abstract int Attack();
 
-        public virtual void TakeDamage(int damage)
+        public virtual string TakeDamage(int damage)
         {
             Hp -= damage;
             if (Hp < 0)
@@ -29,9 +29,9 @@ namespace HeroEngine.Core.Models
             }
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"[ENEMY] {Species} takes {damage} damage! Remaining HP: {Hp}");
-            if (Hp == 0) Console.WriteLine("DEFETED ENEMY!!!");
+            string resultText = (Hp == 0) ? "DEFETED ENEMY!!!" : $"[ENEMY] {Species} takes {damage} damage! Remaining HP: {Hp}";
             Console.ResetColor();
+            return resultText;
         }
     }
 }

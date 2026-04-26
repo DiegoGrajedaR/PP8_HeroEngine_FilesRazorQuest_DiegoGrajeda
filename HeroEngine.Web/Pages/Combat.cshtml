@@ -1,4 +1,18 @@
 ﻿@page
 @model HeroEngine.Web.Pages.CombatModel
 @{
+    ViewData["Title"] = "Combat Simulator";
+
 }
+
+<h2>⚔️ Training matches</h2>
+
+<form method="post" asp-page-handler="Simulate">
+    <button class="btn btn-danger">Simulate Combat</button>
+</form>
+
+<hr />
+
+<h4>Combat History (.txt file content):</h4>
+<pre class="bg-dark text-light p-3">@Model.DisplayLog</pre>
+

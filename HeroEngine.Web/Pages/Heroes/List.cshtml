@@ -2,3 +2,47 @@
 @model HeroEngine.Web.Pages.Heroes.IndexModel
 @{
 }
+
+
+<div class="heroes">
+    <div class="header">
+        <h2>🛡️ Heroes List</h2>
+        <a asp-page="/Heroes/Create">Recruit New Hero</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Level</th>
+                <th>HP</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var hero in Model.HeroesList)
+            {
+                <tr>
+                    <td><strong>@hero.Name</strong></td>
+                    <td>@hero.GetType().Name</td>
+                    <td>@hero.Level</td>
+                    <td>
+                        <div class="hp">
+                            <div class="bar"
+                                 style="width: @((hero.CurrentHP * 100) / hero.MaxHP)%;">
+                                @hero.CurrentHP / @hero.MaxHP
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <a asp-page="/Heroes/Detail"
+                               asp-route-name="@hero.Name">
+                            Inspect
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
