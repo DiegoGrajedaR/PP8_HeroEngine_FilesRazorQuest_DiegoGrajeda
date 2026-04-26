@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace HeroEngine.Core.Models
 {
+    // Atributs CLAU perquè el JSON sàpiga quina classe instanciar
+    [JsonDerivedType(typeof(Warrior), typeDiscriminator: "Warrior")]
+    [JsonDerivedType(typeof(Mage), typeDiscriminator: "Mage")]
+    [JsonDerivedType(typeof(Rogue), typeDiscriminator: "Rogue")]
     public abstract class AHero
     {
         public string Name { get; set; }

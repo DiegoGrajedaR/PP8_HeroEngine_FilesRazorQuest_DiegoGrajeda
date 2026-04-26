@@ -1,0 +1,12 @@
+[
+  {
+    "$type": "Warrior",
+    "Armor": 20,
+    "BattleCry": "For the eternal darkness!",
+    "Name": "Lancelot",
+    "Level": 1,
+    "MaxHP": 100,
+    "CurrentHP": 100,
+    "IsDefeated": false
+  }
+]

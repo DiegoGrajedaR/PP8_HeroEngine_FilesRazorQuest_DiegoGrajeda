@@ -1,99 +1,22 @@
 
---- COMBAT LOG: 26/4/2026 18:15:08 ---
+--- COMBAT LOG: 26/4/2026 22:30:13 ---
 --- BATTLE START ---
 --- ROUND 1 ---
 
-[HERO/Warrior] Lancelot | Level: 2 | HP: 110/110 | Armor: 30 | Battle Cry: Eternal darkness!
-
-[HERO/Mage] Gandalf | Level: 5 | HP: 140/140 | Mana: 130 | ArcaneLvl: 3
-
-[HERO/Rogue] Hood | Level: 2 | HP: 110/110 | Stealth Multiplier: 1,2 | Daggers: 15
+[HERO/Warrior] Lancelot | Level: 1 | HP: 100/100 | Armor: 20 | Battle Cry: For the eternal darkness!
 
 HEROES TURN
--> [HERO/Warrior] Lancelot screams: 'Eternal darkness!' Lancelot attacks! Deals 40 damage.
-[ENEMY] Slime takes 40 damage! Remaining HP: 30
--> [HERO/Mage] Gandalf casts a spell! Deals 55 damage. Remaining Mana: 120
-DEFETED ENEMY!!!
--> [HERO/Rogue] Hood throws a dagger! Deals 30 damage. (Daggers left: 14
-[ENEMY] Goblin takes 30 damage! Remaining HP: 20
+-> [HERO/Warrior] Lancelot screams: 'For the eternal darkness!' Lancelot attacks! Deals 35 damage.
+[ENEMY] Slime takes 35 damage! Remaining HP: 25
 
 ENEMIES TURN
--> [ENEMY] Goblin lunges forward! Attacks Lancelot for 7 damage.
--> [ENEMY] Dark Goblin lunges forward! Attacks Lancelot for 7 damage.
--> [ENEMY] Warrior Skeleton (Elite) executes a heavy and precise strike! attacks Lancelot for 22 damage.
--> [ENEMY] Baldur the Dark Emperor uses ULTIMATE: DARK PROJECTILE! attacks Lancelot for 95 damage.
+-> [ENEMY] Slime lunges forward! Attacks Lancelot for 9 damage.
+-> [ENEMY] Goblin lunges forward! Attacks Lancelot for 11 damage.
+-> [ENEMY] Dark Goblin lunges forward! Attacks Lancelot for 11 damage.
+-> [ENEMY] Warrior Skeleton (Elite) executes a heavy and precise strike! Attacks Lancelot for 25 damage.
+-> [ENEMY] Baldur the Dark Emperor uses ULTIMATE: DARK PROJECTILE! Attacks Lancelot for 95 damage.
 --------------------------------------------------
-  Remaining enemies: 4 | Heroes standing: 3
-==================================================
-
---- ROUND 2 ---
-
-[HERO/Warrior] Lancelot | Level: 2 | HP: 3/110 | Armor: -10 | Battle Cry: Eternal darkness!
-
-[HERO/Mage] Gandalf | Level: 5 | HP: 140/140 | Mana: 120 | ArcaneLvl: 3
-
-[HERO/Rogue] Hood | Level: 2 | HP: 110/110 | Stealth Multiplier: 1,2 | Daggers: 14
-
-HEROES TURN
--> [HERO/Warrior] Lancelot screams: 'Eternal darkness!' Lancelot attacks! Deals 40 damage.
-DEFETED ENEMY!!!
--> [HERO/Mage] Gandalf casts a spell! Deals 55 damage. Remaining Mana: 110
-DEFETED ENEMY!!!
--> [HERO/Rogue] Hood throws a dagger! Deals 30 damage. (Daggers left: 13
-[ENEMY] Warrior Skeleton takes 30 damage! Remaining HP: 110
-
-ENEMIES TURN
--> [ENEMY] Warrior Skeleton (Elite) executes a heavy and precise strike! attacks Lancelot for 22 damage.
--> [ENEMY] Baldur the Dark Emperor uses ULTIMATE: DARK PROJECTILE! attacks Gandalf for 95 damage.
---------------------------------------------------
-  Remaining enemies: 2 | Heroes standing: 2
-==================================================
-
---- ROUND 3 ---
-
-[HERO/Mage] Gandalf | Level: 5 | HP: 45/140 | Mana: 110 | ArcaneLvl: 3
-
-[HERO/Rogue] Hood | Level: 2 | HP: 110/110 | Stealth Multiplier: 1,2 | Daggers: 13
-
-HEROES TURN
--> [HERO/Mage] Gandalf casts a spell! Deals 55 damage. Remaining Mana: 100
-[ENEMY] Warrior Skeleton takes 55 damage! Remaining HP: 55
--> [HERO/Rogue] Hood throws a dagger! Deals 30 damage. (Daggers left: 12
-[ENEMY] Warrior Skeleton takes 30 damage! Remaining HP: 25
-
-ENEMIES TURN
--> [ENEMY] Warrior Skeleton (Elite) executes a heavy and precise strike! attacks Gandalf for 22 damage.
--> [ENEMY] Baldur the Dark Emperor uses ULTIMATE: DARK PROJECTILE! attacks Gandalf for 95 damage.
---------------------------------------------------
-  Remaining enemies: 2 | Heroes standing: 1
-==================================================
-
---- ROUND 4 ---
-
-[HERO/Rogue] Hood | Level: 2 | HP: 110/110 | Stealth Multiplier: 1,2 | Daggers: 12
-
-HEROES TURN
--> [HERO/Rogue] Hood throws a dagger! Deals 30 damage. (Daggers left: 11
-DEFETED ENEMY!!!
-
-ENEMIES TURN
--> [ENEMY] Baldur the Dark Emperor uses ULTIMATE: DARK PROJECTILE! attacks Hood for 95 damage.
---------------------------------------------------
-  Remaining enemies: 1 | Heroes standing: 1
-==================================================
-
---- ROUND 5 ---
-
-[HERO/Rogue] Hood | Level: 2 | HP: 15/110 | Stealth Multiplier: 1,2 | Daggers: 11
-
-HEROES TURN
--> [HERO/Rogue] Hood throws a dagger! Deals 30 damage. (Daggers left: 10
-[ENEMY] Baldur the Dark Emperor takes 30 damage! Remaining HP: 300
-
-ENEMIES TURN
--> [ENEMY] Baldur the Dark Emperor uses ULTIMATE: DARK PROJECTILE! attacks Hood for 95 damage.
---------------------------------------------------
-  Remaining enemies: 1 | Heroes standing: 0
+  Remaining enemies: 5 | Heroes standing: 0
 ==================================================
 
 --- BATTLE FINISHED: DEFEAT ---
